@@ -35,7 +35,8 @@ img{vertical-align: center;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 html, body { background-color: #000000}
-
+/*--------------*/
+/*Слайдер*/
 .wrapper {
     padding: 3% 10%;
     height: 100vh;
@@ -141,20 +142,15 @@ input#img-4:checked ~ .nav-dots span#img-dot-4{
 	background-color: transparent;
     border: 2px solid rgba(223, 104, 104, 0.8);
 }
-
+/*Адаптив для мобильной версии*/
 @media(max-width:380px){
     .slide-container{
-       
         height:50vh;
     }
     .next{
         margin-top: -50vh;
     }
-.slide img{
-    
-    height:auto;;
-    
-}
+
 .wrapper {
     padding: 3% 5%;
 }
@@ -170,7 +166,6 @@ input#img-4:checked ~ .nav-dots span#img-dot-4{
     display:block;
     margin: -10vh auto;
 	text-align: center;
-  
    width: 100%;
    float: none;
 }
