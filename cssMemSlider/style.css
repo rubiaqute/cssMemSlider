@@ -100,7 +100,7 @@ input:checked + .slide-container .slide-description {
 	
     height:5vh;
 	text-align: right;
-margin-top: -2.5%;
+  margin-top: -2.5%;
    width: 30%;
    float: right;
    
@@ -157,7 +157,30 @@ input#img-4:checked ~ .nav-dots span#img-dot-4{
 }
 .wrapper {
     padding: 3% 5%;
-   
+}
+.slide-description{
     
+    font-size:1rem;
+  margin-top: 20vh;
+   display: block;
+    width:100%
+    
+}
+.nav-dots{
+    display:block;
+    margin: -10vh auto;
+	text-align: center;
+  
+   width: 100%;
+   float: none;
+}
+.nav-dot{
+    width: 30px;
+    height:30px;
+    margin: 0 0.5%;
+}
+.checkmark{
+    width: 10px;
+    height:10px;
 }
 }
